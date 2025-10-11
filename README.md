@@ -3,7 +3,7 @@
 ### Welcome to Computer Science 3!
 hey i just met you. and this is crazy
 
-kas was here
+kas was here  
 Maggie was here
 
 hoahoahoahoa
