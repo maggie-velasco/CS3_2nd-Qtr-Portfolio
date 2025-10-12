@@ -2,23 +2,40 @@
 <html>
   <head>
     <title> friday sched ! </title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
   <style>
+    h1{
+      text-align: center;
+      font-family: 'Indie Flower', monospace;
+      margin-bottom: 30px;
+      color: #ffc987;
+      text-shadow: 0 0 5px #f73939;
+    }
+    .table-wrap{
+      width: 100%;
+      max-width: 1000px;
+      overflow-x: auto;
+      border-radius: 20px;
+      backdrop-filter: blur(20px);
+      padding: 20px;
+    }
     body{
-      background-color: #fff8f0;
-      font-family: 'Poppins';
+      font-family: 'Indie Flower', monospace;
       display: flex;
       justify-content: center;
       padding: 40px 20px;
+      background: radial-gradient(circle at top, #e8847d,#ffbc6b );
+      position: relative;
     }
 
     .table-sched{
       width: 100%;
       max-width: 600 px;
-      background-color: #ffe4e1;
+      background: rgba(255,255, 255, 0.05);
       border-collapse: collapse;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-      border: 1.5px solid #6b3d3e;
+      border: 2px solid #6b3d3e;
     }
     th, td{
       padding: 15px 20px;
@@ -26,11 +43,8 @@
       vertical-align: top;
       border: 1.5px  solid #6b3d3e;
     }
-    tr:nth-child(even) {
-      background-color: #fffaf0;
-    }
     tbody tr:hover {
-      background-color: #d49899;
+      background-color: #e8847d;
       transition: 0.2s ease;
     }
     thead{
@@ -40,14 +54,64 @@
     @media screen and (max-width: 600px){
       th, td{
         padding: 12px 10px;
-        font-size 0.95rem;
+        font-size: 0.95rem;
+    }
+  }
+    .jellyfish{
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      background: radial-gradient(circle at center, #ff7e79 20%);
+      animation: float 20s infinite ease-in-out;
+      opacity: 0.6;
+      box-shadow: 0 0  15px #fff;
     }
     
+    .jellyfish:nth-child(1){
+      bottom: 20%;
+      left: 20%;
+      animation-delay: 0s;
+    }
+    .jellyfish:nth-child(2){
+      bottom: 10%;
+      left: 60%;
+      animation-delay: 2s;
+      width: 80px;
+      height: 80px;
+    } 
+    .jellyfish:nth-child(3){
+      bottom: 20%;
+      left: 40%;
+      animation-delay: 1s;
+      width: 50px;
+      height: 50px;
+    }
+    @keyframes float{
+      0%{
+        transform: translateY(0) scale(1);
+        opacity: 0.6;
+      }
+      50%{
+        transform: translateY(-300px) scale(2);
+        opacity: 0.6;
+      }
+      100%{
+        transform: translateY(0) scale(1);
+        opacity: 0.6;
+      }
+    }
   </style>
   </head>
 
   <body>
-<h1> Friday Sched ! </h1>
+    <div class="jellyfish"></div>
+    <div class="jellyfish"></div>
+    <div class="jellyfish"></div>
+    
+    <div class="table-wrap">
+    <div>
+    <h1> Friday Sched ! </h1>
+  </div>
     <table class="table-sched">
     <thead>
     <tr>
@@ -64,12 +128,12 @@
     <tr>
       <td> 8:15 am - 9:00 am </td>
       <td> Study Period</td>
-      <td>  </td>
+      <td></td>
     </tr>
     <tr>
       <td> 9:00 am - 9:10 am </td>
       <td> Break </td>
-      <td>   </td>
+      <td></td>
     </tr>
     <tr>
       <td> 9:10 am - 9:55 am</td>
@@ -90,12 +154,12 @@
     <tr> 
       <td> 12:10 pm - 12:20 pm</td>
       <td> Break </td>
-      <td>    </td>
+      <td></td>
     </tr>
     <tr>
       <td> 12:20 pm - 1:05 pm</td>
       <td> Lunch </td>
-      <td>  </td>
+      <td></td>
     </tr>
     <tr>
       <td> 1:05 pm - 1:50 pm</td>
@@ -105,12 +169,12 @@
     <tr>
       <td> 1:50 pm - 2:35 pm</td>
       <td> Study Period </td>
-      <td>  </td>
+      <td></td>
     </tr>
     <tr>
       <td>  2:35 pm - 2:45 pm </td>
       <td> Break </td>
-      <td>     </td>
+      <td></td>
     </tr>
     <tr>
       <td> 2:45 pm - 3:30 pm </td>
