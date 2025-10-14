@@ -10,17 +10,56 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    gap: 5%;
+    }
+    section{
+        width: 50%;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+    section.table-section{
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    h1{
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  color: #fffacd;
+  font-size: 50px;
+  text-align: center;
+  transition: all 400ms ease-in-out;
+    }
+    h1:hover{
+        transform: scale(1.2);
     }
 table {
   width: 50%;
+  width: 100%;
   border-collapse: collapse; 
   margin: 12px 0;
+  margin: 0;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 15px;
   color: #f4ca16 ;
   background-color: #ffffdd;
 }
-
+.sub2:hover{
+    transform: scale(1.2);
+    z-index: 3;
+    position: relative;
+    box-shadow: 0 0 30px 10px rgba(139, 98, 98, 0.8);
+}
+.teach1:hover{
+    transform: scale(1.2);
+    z-index: 3;
+    position: relative;
+    box-shadow: 0 0 30px 10px rgba(139, 98, 98, 0.8);
+}
 th, td {
   border: 1px solid #e3e3e3;
   padding: 10px;
@@ -34,17 +73,21 @@ th {
 .sub2 {
     background-color:   #fffacd;
     font-weight: bold;
+    transition: all 300ms ease-in-out;
 }
 .teach1 {
     background-color:     #ffd0e6 ;
     color: #E18AAA;
-    font-weight: bold; }
+    font-weight: bold;
+    transition: all 300ms ease-in-out; }
 .teach2 { 
     background-color:     #ffe4f3 ;
     color: #f3f3f3;  }
  .rm1{
-    background-color: rgb(255, 255, 255);
-    color: rgb(136, 136, 136)
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(136, 136, 136);
+    backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
     }
 .time {
     width: 25%;
@@ -59,11 +102,145 @@ th {
 .teacher {
     width: 50%;
 }
+.twinkle,
+.sparkle,
+.shine{
+  position: absolute;
+}
+.twinkle.one{
+  top: 5%;
+  left: 25%;
+}
+.twinkle.two{
+  top: 50%;
+  left: 45%;
+}
+.twinkle.three{
+  top: 85%;
+  left: 5%;
+}
+.shine.one{
+  top: 69%;
+  left: 40%;
+}
+.shine.two{
+  top: 55%;
+  left: 5%;
+}
+.shine.three{
+  top: 29%;
+  left: 17%;
+}
+.sparkle.one{
+  top: 25%;
+  left: 35%;
+}
+.sparkle.two{
+  top: 5%;
+  left: 5%;
+}
+.sparkle.three{
+  top: 65%;
+  left: 27%;
+}
+.twinkle{
+  animation: twinkleRotate 3s infinite linear;
+  display: inline-block;
+  transition: all 0.3s ease;
+  color: #ffeb90;
+  font-style: normal;
+  font-size: 80px;
+}
+.sparkle{
+  animation: twinkleSwing 4s infinite linear;
+  display: inline-block;
+  color: #FF69B4; /* Hot Pink */
+  font-size: 45px;
+}
+.shine {
+  animation: blink 1s infinite;
+  color: #CBA135; /* Gold */
+  display: inline-block;
+  font-size: 100px;
+}
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes twinkleRotate {
+  0% {
+    opacity: 0.2;
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    opacity: 1;
+    transform: rotate(90deg) scale(1.1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: rotate(180deg) scale(0.95);
+  }
+  75% {
+    opacity: 1;
+    transform: rotate(270deg) scale(1.05);
+  }
+  100% {
+    opacity: 0.2;
+    transform: rotate(360deg) scale(1);
+  }
+}
+@keyframes twinkleSwing {
+  0% {
+    opacity: 0.3;
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    opacity: 1;
+    transform: rotate(-180deg) scale(1.1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: rotate(0deg) scale(0.95);
+  }
+  75% {
+    opacity: 1;
+    transform: rotate(180deg) scale(1.05);
+  }
+  100% {
+    opacity: 0.3;
+    transform: rotate(0deg) scale(1);
+  }
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
 
   </style>
 
   <body>
-<h1> ⊹₊✦ Tuesday Schedule ✦₊⊹ </h1>
+    <i class="twinkle one">✦</i>
+    <i class="twinkle two">✦</i>
+    <i class="twinkle three">✦</i>
+    <i class="sparkle one">⊹</i>
+    <i class="sparkle two">⊹</i>
+    <i class="sparkle three">⊹</i>
+    <i class="shine one">₊</i>
+    <i class="shine two">₊</i>
+    <i class="shine three">₊</i>
+    <section>
+        <h1 class="class-schedule-title"><span>⊹₊✦</span> Tuesday Schedule <span>✦₊⊹</span></h1>
+    </section>
+    <section class="table-section">
     <table class="table-sched">
     <thead>
     <tr>
@@ -156,6 +333,6 @@ th {
         <th colspan="4"> Dismissal </th>
     </tr>
     </table>
+</section>
   </body>
 </html>
-
