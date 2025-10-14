@@ -44,7 +44,6 @@ html
   background-position: center;
 }
 
-
 body 
 {
     color: rgb(255, 248, 174);
@@ -77,12 +76,18 @@ h2
   display: flex;
   gap: 20px;
   align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .left, .right 
 {
-  flex: 0 0 auto;
+  flex: 0 1 auto;
+  max-width: 100%;
 }
+
 p
 {
     text-align: center;
@@ -96,7 +101,7 @@ p
 .left 
 {
   display: inline-block;
-  margin: 30px;
+  margin: 10px;
   padding: 40px;
   border: 8px solid #ffffff;
   border-radius: 30px;
@@ -106,17 +111,15 @@ p
 .right 
 {
   display: flex;
-  width: max-content; 
+  flex-direction: column;
   font-family: 'Courier New', Courier, monospace;
   margin: 20px;
   padding: 20px;
   border: 8px solid #ffffff;
   border-radius: 30px;
   background-color: #64173373;
-  flex-direction: column;  
-  max-width: 500px;
+  max-width: 400px;
 }
-
 
 img 
 {
