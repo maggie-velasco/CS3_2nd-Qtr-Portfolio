@@ -10,9 +10,12 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    display: flex;
+
+    }
+    main{
+          display: flex;
     align-items: center;
-    height: 100vh;
+
     gap: 5%;
     }
     section{
@@ -38,9 +41,10 @@ body {
         transform: scale(1.2);
     }
 table {
-  width: 50%;
+  margin-top: 40%;;
+  
   width: 100%;
-  border-collapse: collapse; 
+  border-collapse: collapse;
   margin: 12px 0;
   margin: 0;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -66,6 +70,7 @@ th, td {
   text-align: center;
 }
 
+
 th {
   background-color: #FF69B4;
   color:   #A80C47;
@@ -80,7 +85,7 @@ th {
     color: #E18AAA;
     font-weight: bold;
     transition: all 300ms ease-in-out; }
-.teach2 { 
+.teach2 {
     background-color:     #ffe4f3 ;
     color: #f3f3f3;  }
  .rm1{
@@ -91,13 +96,13 @@ th {
     }
 .time {
     width: 25%;
-    
+   
 }
 .subject {
     width: 30%;
 }
 .room {
-    width: 12%; 
+    width: 12%;
 }
 .teacher {
     width: 50%;
@@ -116,7 +121,7 @@ th {
   left: 45%;
 }
 .twinkle.three{
-  top: 85%;
+  top: 75%;
   left: 5%;
 }
 .shine.one{
@@ -219,15 +224,82 @@ th {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
   }
-  
+ 
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
 }
 
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+ 
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+footer{
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff4d6;
+    color: #ff7ac3;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    opacity: 90%;
+}
+h3{
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  color: #ff58bc;
+  font-size: 20px;
+  text-align: center;
+  transition: all 400ms ease-in-out;
+  opacity:50%;
+    }
+    h1:hover{
+        transform: scale(1.2);
+    }
+nav {
+        position: fixed;
+        top: 0;
+        left: 70PX;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        
+        padding: 15px 0;
+        background-color: #fff8d8;
+        z-index: 1000;
+        border-radius: 20PX;
+      }
+      nav a {
+        color: rgb(252, 89, 195);
+        text-decoration: none;
+        font-size: 18px;
+        padding: 10px;
+        display: block;
+      }
+
+      nav a:hover {
+        background-color: rgb(255, 159, 220);
+        color: #ffea02;
+        border-radius: 5px;
+      }
   </style>
 
   <body>
+    <nav>
+      <a href="Q21stGraded.html">MAIN PAGE</a>
+      <a href="mondie.html">MONDAY</a>
+      <a href="2Q1GPotassiumGonzaga.html">TUESDAY</a>
+      <a href="thursday.html">THURSDAY</a>
+      <a href="2Q1GPotassiumAgnir.html">FRIDAY</a>
+    </nav>
+
     <i class="twinkle one">✦</i>
     <i class="twinkle two">✦</i>
     <i class="twinkle three">✦</i>
@@ -237,6 +309,7 @@ th {
     <i class="shine one">₊</i>
     <i class="shine two">₊</i>
     <i class="shine three">₊</i>
+    <main>
     <section>
         <h1 class="class-schedule-title"><span>⊹₊✦</span> Tuesday Schedule <span>✦₊⊹</span></h1>
     </section>
@@ -334,5 +407,16 @@ th {
     </tr>
     </table>
 </section>
+    </main>
+
+
+<footer>
+      <p>⭑★ Tuesday... One of the less hectic schedule in Grade 9 for me. Other than it starting and ending with two of the most annoying subject in Pisay. Haha! ★⭑</p>
+      <p>⭑★ Though wednesday is the next day, so you could rest for that day without doing requirements if you desire. ★⭑</p>
+      <h3>Made by Naj Gonzaga from 9-Potassium of Batch 2029 </h3>
+    </footer>
+
+
+  </body>
   </body>
 </html>
