@@ -52,7 +52,7 @@ body
 
 h1 
 {
-    text-align: center;
+    text-align: left;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(55, 79, 63);
     background-color: rgb(255, 248, 174);
@@ -191,3 +191,42 @@ img
 }
 
 
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 20px;
+  background-color: rgb(255, 164, 222);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  border-radius: 30px;
+  width: fit-content;
+}
+
+li a 
+{
+  text-decoration: none;
+  color: rgb(255, 251, 211);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+li a:hover 
+{
+  background-color: rgb(94, 121, 103);
+}
+p1.copyright 
+{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(94, 121, 103);
+  font-size: 15px;
+  margin-top: 20px;
+}
