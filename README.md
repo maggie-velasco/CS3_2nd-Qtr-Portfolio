@@ -10,3 +10,8 @@ hoahoahoahoa
 
 guys what if we put a picture of us 4 sa main page HEHEHEH - K28
 oowekowkdowkdowkdowk
+
+[2Q1GPotassiumVelasco.html] (2Q1GPotassiumVelasco.html)
+[2Q1GPotassiumGonzaga.html] (2Q1GPotassiumGonzaga.html)
+[2Q1GPotassiumAga.html] (2Q1GPotassiumAga.html)
+[2Q1GPotassiumAgnir.html] (2Q1GPotassiumAgnir.html)
