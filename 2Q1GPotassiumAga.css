@@ -38,12 +38,12 @@ th:hover
 html, body 
 {
   height: 160%; 
-  background-image: url("https://i.pinimg.com/736x/85/18/d2/8518d2991ee4c54b2a4591b9ea432bad.jpg"); 
+  background-image: url("https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1600&q=80"); 
   background-size: cover; 
   background-repeat: no-repeat; 
   background-position: center; 
-    color: rgb(255, 248, 174);
-    font-size: 20px;
+  color: rgb(255, 248, 174);
+  font-size: 20px;
 }
 
 h1 
@@ -226,6 +226,7 @@ p1.copyright
   font-size: 15px;
   margin-top: 20px;
 }
+
 
 
 
