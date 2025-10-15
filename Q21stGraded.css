@@ -1,0 +1,135 @@
+table 
+{
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 20px;
+  overflow: hidden;  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+table:hover 
+{
+  transform: scale(1.15);
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+td 
+{
+  border: 2px solid rgb(255, 255, 255);
+  font-size: 15px;
+  padding: 10px;
+  background-color:rgb(38, 64, 102);
+  font-family:'Courier New', Courier, monospace
+}
+td:hover 
+{
+  background-color: rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+  cursor: default;
+}
+
+th 
+{
+  background-color: rgb(255, 255, 255);
+  font-size: 25px; 
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+th:hover
+{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 248, 174);
+  cursor: default;
+} 
+
+html 
+{
+  height: 120%;
+  background-image: url("5d7abd4b03307e8ce480a48787900211.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+body 
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+h1 
+{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(55, 79, 63);
+    background-color: rgb(255, 248, 174);
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+h2 
+{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 248, 174);
+    background-color: rgb(94, 121, 103);
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.div 
+{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.584);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+p
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: bold;
+    background-color:rgb(0, 0, 0);
+    margin-top:50px;
+}
+img 
+{
+  width: 200px;
+  height: auto;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+    margin-left: 20px;
+    border: 6px solid rgb(255, 255, 255);
+}
+.img:hover 
+{
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+p1
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:100px;
+}

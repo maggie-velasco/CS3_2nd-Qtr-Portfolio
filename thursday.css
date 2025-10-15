@@ -37,13 +37,12 @@ th:hover
 
 html 
 {
-  height: 150%;
+  height: 160%;
   background-image: url("5ada82c7a6c4a284851f3de8318c536a.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-
 
 body 
 {
@@ -53,7 +52,7 @@ body
 
 h1 
 {
-    text-align: center;
+    text-align: left;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(55, 79, 63);
     background-color: rgb(255, 248, 174);
@@ -77,12 +76,18 @@ h2
   display: flex;
   gap: 20px;
   align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .left, .right 
 {
-  flex: 0 0 auto;
+  flex: 0 1 auto;
+  max-width: 100%;
 }
+
 p
 {
     text-align: center;
@@ -96,7 +101,7 @@ p
 .left 
 {
   display: inline-block;
-  margin: 30px;
+  margin: 10px;
   padding: 40px;
   border: 8px solid #ffffff;
   border-radius: 30px;
@@ -106,17 +111,15 @@ p
 .right 
 {
   display: flex;
-  width: max-content; 
+  flex-direction: column;
   font-family: 'Courier New', Courier, monospace;
   margin: 20px;
   padding: 20px;
   border: 8px solid #ffffff;
   border-radius: 30px;
   background-color: #64173373;
-  flex-direction: column;  
-  max-width: 500px;
+  max-width: 400px;
 }
-
 
 img 
 {
@@ -148,7 +151,7 @@ img
   display: block;
 }
 
-p1
+.p1
 {
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
@@ -166,7 +169,7 @@ p1
   cursor: pointer;
 }
 
-p2
+.p2
 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -175,4 +178,55 @@ p2
     font-weight: bold;
     margin-bottom: 10px;
     background-color:rgb(255, 251, 211);
+}
+.p3
+{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(94, 121, 103);
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color:rgb(255, 251, 211);
+}
+
+
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 20px;
+  background-color: rgb(255, 164, 222);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  border-radius: 30px;
+  width: fit-content;
+}
+
+li a 
+{
+  text-decoration: none;
+  color: rgb(255, 251, 211);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+li a:hover 
+{
+  background-color: rgb(94, 121, 103);
+}
+p1.copyright 
+{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(94, 121, 103);
+  font-size: 15px;
+  margin-top: 20px;
 }
