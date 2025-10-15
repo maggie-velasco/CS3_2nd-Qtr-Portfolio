@@ -47,8 +47,8 @@ th:hover
 
 html 
 {
-  height: 120%;
-  background-image: url("5d7abd4b03307e8ce480a48787900211.jpg");
+  height: 105%;
+  background-image: url("https://i.pinimg.com/736x/5d/7a/bd/5d7abd4b03307e8ce480a48787900211.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -125,11 +125,10 @@ img
 p1
 {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: bold;
     margin-top:100px;
+    background-color: rgb(0, 0, 0);
 }
