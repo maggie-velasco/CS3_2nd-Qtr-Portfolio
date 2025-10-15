@@ -35,16 +35,7 @@ th:hover
   cursor: default;
 } 
 
-html 
-{ 
-  height: 160%; 
-  background-image: url("https://i.pinimg.com/736x/85/18/d2/8518d2991ee4c54b2a4591b9ea432bad.jpg"); 
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position: center; 
-}
-
-body 
+html, body 
 {
   height: 160%; 
   background-image: url("https://i.pinimg.com/736x/85/18/d2/8518d2991ee4c54b2a4591b9ea432bad.jpg"); 
@@ -235,6 +226,7 @@ p1.copyright
   font-size: 15px;
   margin-top: 20px;
 }
+
 
 
 
