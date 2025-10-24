@@ -225,3 +225,9 @@
         height: 60px;
         border-radius: 50%;
       }
+      nav a:visited {
+        color: #f19990;
+      }
+      nav a:active {
+        color: #6b3d3e;
+      }      
