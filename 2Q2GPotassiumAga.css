@@ -35,16 +35,6 @@ th:hover
   cursor: default;
 } 
 
-html, body 
-{
-  height: 125%; 
-  background-image: url("https://i.pinimg.com/1200x/44/1e/ff/441effc4d4219e9646ea92af1c2414e3.jpg"); 
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position: center; 
-  color: rgb(255, 248, 174);
-  font-size: 20px;
-}
 
 h1 
 {
