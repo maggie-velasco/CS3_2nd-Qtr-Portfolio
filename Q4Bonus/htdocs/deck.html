@@ -29,11 +29,27 @@
 				padding: 5px;
 				font-weight: bold;
 			}
+			#deck div:first-child{
+				z-index:1;
+			}
+			#deck div:nth-child(2){
+				z-index:2;
+			}
+			#deck div:nth-child(3){
+				z-index:3;
+			}
+			#deck div:nth-child(4){
+				z-index:4;
+			}
+			#deck div:nth-child(5){
+				z-index:5;
+			}
 			#deck div:hover{
 				border: 3px solid yellow;
 			}
 			#deck div:first-child:hover{
 				background-color: rgb(253, 208, 123);
+				transform: rotate(-20deg);
 			}
 			#deck div:nth-child(2):hover{
 				background-color: rgb(206, 128, 128);
